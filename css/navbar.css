@@ -1,0 +1,47 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    object-fit: contain;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    top: 0;
+    left: 0;
+}
+
+.navbar-container {
+    width: 96vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-logo img {
+    width: 260px;
+}
+
+.navbar-contact button {
+    background-color: #232323;
+    border: none;
+    font-size: .8rem;
+    padding: .6rem 1.4rem;
+    border-radius: .4rem;
+    color: #faf5ee;
+    font-family: 'Krona One', sans-serif;
+    transition: .6s ease all;
+    cursor: pointer;
+}
+
+.navbar-contact span {
+    font-size: 1rem;
+    margin-right: .2rem;
+}
+
+.navbar-contact button:hover {
+    transform: perspective(1200px) rotateY(25deg) scale(.9) rotateX(10deg);
+}

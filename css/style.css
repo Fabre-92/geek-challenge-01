@@ -1,5 +1,71 @@
-body {
-    background-color: #FCEBD2;
-    scroll-behavior: smooth;
-    font-family: 'Krona One', sans-serif;
+.hero-container {
+    height: 56vh;
+    width: 64vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-container__content h1 {
+    font-size: 2.8rem;
+    margin: 12rem auto 1rem auto;
+}
+
+.hero-container__content span {
+    font-size: 4rem;
+}
+
+.hero-container__content h2 {
+    margin: 0 auto;
+    width: 42vw;
+    font-size: .8rem;
+}
+
+.container-portfolio {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+    grid-gap: 1rem;
+}
+
+.work-content {
+    height: 36rem;
+    padding: .8rem;
+    display: flex;
+    margin-top: auto;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(250, 245, 238, 0) 58.33%, rgba(250, 245, 238, 0.3) 98.7%);
+    transition: 1s ease all;
+}
+
+.work-content img {
+    position: relative;
+    height: 100%;
+    object-fit: contain;
+    top: 0;
+    z-index: -1;
+    transition: .4s ease all;
+}
+
+.work-title {
+    margin-top: 50rem;
+    margin-bottom: 0;
+    transition: .4s ease all;
+}
+
+.work-subtitle {
+    margin-top: -2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.work-content:hover .work-title {
+    margin-top: -6rem;
+}
+
+.work-content:hover {
+    background: linear-gradient(180deg, rgba(250, 245, 238, 0) 40%, rgba(250, 245, 238, 0.5) 100%);
 }
