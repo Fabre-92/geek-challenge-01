@@ -8,16 +8,16 @@
     text-align: center;
 }
 
-.hero-container__content h1 {
+.hero-h1 {
     font-size: 2.8rem;
-    margin: 12rem auto 1rem auto;
+    margin: 10rem auto 1rem auto;
 }
 
 .hero-container__content span {
     font-size: 4rem;
 }
 
-.hero-container__content h2 {
+.hero-h2 {
     margin: 0 auto;
     width: 42vw;
     font-size: .8rem;
