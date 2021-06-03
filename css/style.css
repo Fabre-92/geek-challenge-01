@@ -26,7 +26,7 @@
 .container-portfolio {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(36rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     grid-gap: 1rem;
 }
 
@@ -60,6 +60,7 @@
     margin-top: -2rem;
     font-size: 1rem;
     font-weight: lighter;
+    opacity: .8;
 }
 
 .work-content:hover .work-title {
@@ -68,4 +69,31 @@
 
 .work-content:hover {
     background: linear-gradient(180deg, rgba(250, 245, 238, 0) 40%, rgba(250, 245, 238, 0.5) 100%);
+}
+
+@media (max-width: 1084px) {
+    .hero-container__content h1 {
+        font-size: 1.8rem;
+    }
+    .hero-container__content span {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-container {
+        width: 90vw;
+    }
+    .hero-container__content h2 {
+        width: 80vw;
+    }
+    .work-title {
+        margin-top: -10rem;
+    }
+    .work-title:hover {
+        margin-top: -10rem;
+    }
+    .work-subtitle {
+        opacity: .6;
+    }
 }
