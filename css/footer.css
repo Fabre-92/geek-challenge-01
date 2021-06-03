@@ -1,8 +1,11 @@
 .footer {
+
     background-color: #232323;
     color: #faf5ee;
     font-size: 1.4rem;
     width: 100%;
+    height: 24rem;
+
 }
 
 .footer-container {
@@ -11,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     height: 120px;
 }
 
@@ -26,4 +30,6 @@
 .footer-a {
     color: #faf5ee;
     text-decoration: none;
+    margin: 8rem auto;
+    padding: 8rem 0 8rem 0;
 }
