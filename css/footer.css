@@ -1,0 +1,29 @@
+.footer {
+    background-color: #232323;
+    color: #faf5ee;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.footer-container {
+    width: 96vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.footer-ul {
+    list-style: none;
+}
+
+.footer-li {
+    display: inline;
+    margin: 0 40px;
+}
+
+.footer-a {
+    color: #faf5ee;
+    text-decoration: none;
+}
